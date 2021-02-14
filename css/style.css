@@ -1,0 +1,316 @@
+
+@import url("https://fonts.googleapis.com/css2? family = Lato: ital, wght @ 1,400; 1,700 & display=swap&subset=cyrillic-ext");
+@import url ("https://fonts.googleapis.com/css2? family = Source + Sans + Pro: wght @ 400; 600 & family = Viaoda + Libre & family = Vollkorn + SC: wght @ 400; 600; 700 & display = swap&subset=cyrillic-ext ");
+
+@font-face {
+    font-family: 'Proxima Nova Th';
+    src: url('../fonts/ProximaNova-ExtrabldIt.woff2') format('woff2'),
+        url('../fonts/ProximaNova-ExtrabldIt.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('../fonts/ProximaNova-Light.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('../fonts/ProximaNova-LightIt.woff2') format('woff2'),
+        url('../fonts/ProximaNova-LightIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/*цвет и шрифт по умолчанию*/
+body {
+	font-family: Lato;
+	color: black;
+	line-height: 1;
+	
+	background: url("../img/ava7patterns_pattern_1750.png");
+	background-attachment: fixed;
+}
+.buttons{
+	outline: px solid black;
+	background-image: url(../img/ava7patterns_pattern_1686.png);
+	
+	padding: 10px 20px;
+	box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+	background-attachment: fixed;
+}
+
+.button{
+	display: block;
+	text-transform: uppercase;
+	max-width: 300px;
+	outline: 0px solid black;
+	margin: 10px auto;
+	padding: 20px 10px;
+	background-color: #FF8C00;
+	text-align: center;
+	color: white;
+	letter-spacing: 3px;
+	font-weight: 600;
+	font-size: 30px;
+	border-radius: 40px;
+	box-shadow: 2px 2px 2px 2px #796d69;
+	background-image:url("../img/cocktail.png");
+	background-size: 30px;
+	background-position: 20px center;
+	background-repeat: no-repeat;
+}
+
+.button_2{
+	display: block;
+	text-transform: uppercase;
+	max-width: 300px;
+	outline: 0px solid black;
+	margin: 20px auto;
+	padding: 20px 10px;
+	background-color: #585dc5;
+	text-align: center;
+	color: white;
+	letter-spacing: 3px;
+	font-weight: 600;
+	font-size: 30px;
+	border-radius: 40px;
+	box-shadow: 2px 2px 2px 2px #3c315a;
+	background-image:url("../img/check-mark.png");
+	background-size: 30px;
+	background-position: 20px center;
+	background-repeat: no-repeat;
+}
+
+.button_3{
+	display: block;
+	text-transform: uppercase;
+	max-width: 300px;
+	outline: 0px solid black;
+	margin: 20px auto;
+	padding: 20px 10px;
+	background-color: #5bba5b;
+	text-align: center;
+	color: white;
+	letter-spacing: 3px;
+	font-weight: 600;
+	font-size: 30px;
+	border-radius: 40px;
+	box-shadow: 2px 2px 2px 2px #1c692e;
+	background-image:url("../img/camcorder.png");
+	background-size: 30px;
+	background-position: 20px center;
+	background-repeat: no-repeat;
+}
+
+
+h1{
+	display: block;
+	outline: 0px solid black;
+	text-align: center;
+	color: #FF4500;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size: 70px;
+	text-transform: uppercase;
+	margin: 30px auto;
+	padding: 30px;
+	background-image: url("../img/television.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	
+}
+.text p{
+	font-size: 30px;
+	color: rgb(56, 52, 36);
+	text-align: center;
+	display:block;
+	margin: 40px auto;
+	line-height: 30px;
+	outline: px solid black;
+	padding: 30px 10px;
+	max-width: 1000px;
+	height: 200px;
+	background-image: url("../img/ava7patterns_pattern_1686.png");
+	background-attachment: fixed;
+	}
+
+	.header h1:after {
+	content: "";
+	display:block;
+	height: 18px;
+	max-width: 1000px;
+	border-color: white;
+	outline: 0px solid black;
+	margin: 0 auto;
+	background-image: url("../img/ava7patterns_pattern_1686.png");
+	background-attachment: fixed;
+	}
+
+	.button:hover{
+text-decoration: underline;
+color:#FFFF00;
+	}
+.button_2:hover{
+text-decoration: underline;
+color:#19cad3;
+	}
+.button_3:hover{
+text-decoration: underline;
+color:#0d6e34;
+background-color: #2F4F4F;
+	}
+	.red:hover{
+		color: #FF8C00;
+		text-decoration: underline;
+		border: 1px solid rgba(120, 87, 87, 0.571);
+	}
+	.red:visited{
+		color: #3CB371;
+		}
+
+	.text :nth-child(even){
+text-transform: uppercase;
+font-size: 20px;
+color: #FF8C00;
+font-weight: 700;
+font-family: cursive;
+background-image: url("../img/5a28bc33151b85.7270504115126190590865.png");
+background-position: center;
+background-size: 1000px auto;
+background-repeat: no-repeat;
+		}
+		.block p{
+	font-size: 30px;
+	color: rgb(56, 52, 36);
+	text-align: center;
+	display:block;
+	margin: 40px auto;
+	line-height: 30px;
+	outline: px solid black;
+	padding: 30px 10px;
+	max-width: 1000px;
+	height: 200px;
+	background-image: url("../img/ava7patterns_pattern_1686.png");
+	background-attachment: fixed;
+		}
+
+		.block p:nth-child(even){
+		text-transform: uppercase;
+		font-size: 20px;
+		color: #FF8C00;
+		font-weight: 700;
+		font-family: cursive;
+		background-image: url("../img/5a28bc33151b85.7270504115126190590865.png");
+				background-position: center;
+				background-size: 1000px auto;
+				background-repeat: no-repeat;
+		}
+			.link:hover{
+			font-weight: 700;
+			font-size: 30px;
+			color:#4c6769;
+			background-image: url("../img/ava7patterns_pattern_1125.png");
+		}
+
+	.textinput{
+	font-size: 40px;
+	color: rgb(198, 196, 192);
+	text-align: right;
+	display:inline-block;
+	padding: 15px 10px;
+	margin: 40px 60px;
+	line-height: 60px;
+	outline: px solid rgb(216, 19, 19);
+	background-image: url("../img/kisspng-black-and-white-pattern-white-floating-powder-5a6a1f81c94611.8856582215169043218244.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1500px auto;
+	}
+	.textinput::first-line{
+		font-family: cursive;
+		color: darkgoldenrod;
+		font-weight: 700;
+		margin: 0 40px;
+	}
+	.textinput:hover{
+		opacity: 0;
+		visibility: hidden;
+		transition: top 0.3s case 0s;
+		}
+		.textinput::before{
+			content: ""open-quote"";
+			font-size: 50px;
+			font-weight: 700;
+			color: crimson;
+			line-height: 80px;
+			
+		}
+		.textinput::after{
+			content: ""close-quote"";
+			font-size: 50px;
+			font-weight: 700;
+			color: crimson;
+			line-height: 20px;
+			margin: 0 40px;
+			}
+	.list{
+	font-size: 40px;
+	color: rgb(140, 116, 21);
+	text-align: center;
+	display:block;
+	margin: 40px 60px;
+	line-height: 40px;
+	outline: px solid rgb(216, 19, 19);
+	background-repeat: no-repeat;
+	background-size: 900px 600px;
+	}
+		.list li:before{
+			content: "";
+			height: 15px;
+			width: 15px;
+			border-radius: 40%;
+			background-color: brown;
+			display: inline-block;
+			margin: 0 10px 0 0;
+		}
+		.list li:hover:before{
+			background-color: rgb(224, 226, 78);
+		}
